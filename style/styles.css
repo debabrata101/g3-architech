@@ -1,0 +1,276 @@
+/* font link  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* multi-class bg-color  */
+.header,
+.banner {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* header style  */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF900E 10%;
+    padding: 0 240px;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+/* banner style  */
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-part1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 862px;
+    height: 225px;
+    margin-bottom: 33px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 44px;
+    text-align: center;
+}
+
+.banner-description {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.btn-primary {
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.banner-img {
+    margin: 27px 240px;
+    width: 1000px;
+    height: 560px;
+    padding: 0 240px;
+
+}
+
+/* team part style  */
+.team-work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 85px;
+    padding: 0 120px;
+    gap: 73px;
+}
+
+.team-pic img {
+    width: 342px;
+    height: 342px;
+}
+
+.team-pic {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+
+}
+
+.team-info {
+    text-align: flex-start;
+    width: 537px;
+    height: 304px;
+}
+
+.team-title {
+    font-size: 45px;
+}
+
+.team-title,
+.t-1 {
+    color: #727272;
+}
+
+.team-title,
+.t-2 {
+    color: #131313;
+}
+
+.team-title,
+.t-3 {
+    color: #FF900E;
+
+}
+
+.team-des {
+
+    font-size: 16px;
+}
+
+/* architech design */
+.architech {
+    display: flex;
+    padding: 0 120px;
+    margin-top: 160px;
+    gap: 146px;
+}
+
+.ar-title {
+    font-weight: 700;
+    font-size: 45px;
+    border-left: 5px solid #FF900E;
+}
+
+.ar-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+
+}
+
+.architech-des {
+    width: 586px;
+    height: 744px;
+}
+
+.ar-box {
+    background: white;
+    box-shadow: 0px 6px 50px rgb(0 0 0 / 10%);
+    padding-left: 5px;
+}
+
+.ar-box-title {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.ar-box-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.architech-img {
+    border-radius: 8px;
+}
+
+.ar-img {
+    width: 708px;
+    height: 882px;
+}
+
+.btn-primary2 {
+    width: 342px;
+    height: 200px;
+    font-weight: 600;
+    font-size: 50px;
+    background: #FF900E;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+/* some-facts design  */
+.some-facts {
+    margin-top: 64px;
+    padding: 0 120px;
+}
+
+.sf-part {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 125px;
+    margin-top: 100px;
+    padding: 0 100px;
+}
+
+.sf-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.sf-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.sf-part-li {
+    text-align: center;
+    border: 2px solid #FF900E;
+}
+
+.sf-icon {
+    margin-top: 15px;
+}
+
+.sf-num {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    margin-top: -8px;
+}
+
+.sf-des {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    margin-top: -30px;
+}
+
+/* Our-sponser */
+.sponser {
+    text-align: center;
+}
+
+.sponser-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.sponser-des {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #727272;
+}
+
+.sponser-com {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0 120px;
+}
+
+/* footer  */
+.footer {
+    text-align: center;
+    padding: 69px 120px;
+    background-color: aquamarine;
+    margin: 108px 120px;
+    border-radius: 8px;
+}
