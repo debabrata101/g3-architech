@@ -153,7 +153,6 @@ header {
 
 .architech-des {
     width: 586px;
-    height: 744px;
 }
 
 .ar-box {
@@ -196,8 +195,10 @@ header {
 
 /* some-facts design  */
 .some-facts {
+    display: flex;
+    flex-direction: column;
     margin-top: 64px;
-    padding: 0 120px;
+     padding: 0 120px; 
 }
 
 .sf-part {
