@@ -198,7 +198,7 @@ header {
     display: flex;
     flex-direction: column;
     margin-top: 64px;
-     padding: 0 120px; 
+    padding: 0 120px;
 }
 
 .sf-part {
@@ -274,4 +274,55 @@ header {
     background-color: aquamarine;
     margin: 108px 120px;
     border-radius: 8px;
+}
+
+@media screen and (max-width:576px) {
+    .team-work{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+    }
+    .team-pic{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+    }
+    .team-info{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 120px;
+         margin-top: 160px;
+}
+   
+    .architech-img{
+        display: grid;
+        justify-items: center;
+    }
+    .architech{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .some-facts{
+        align-items: center;
+    }
+    .sf-part{
+        display: grid;
+         grid-template-rows: repeat(1, 1fr); 
+         grid-template-columns: none;
+         justify-content: center;
+         padding: 0;
+    }
+    .sponser-com
+    {
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+    .footer {
+        margin: 0;
+
+        padding: 0;
+    }
 }
